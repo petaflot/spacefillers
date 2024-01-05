@@ -299,7 +299,7 @@ class HilbertCurve:
 
 
     def __str__(self):
-        return f"HilbertCruve(p={self.p}, n={self.n}, n_procs={self.n_procs})"
+        return f"HilbertCurve(p={self.p}, n={self.n}, n_procs={self.n_procs})"
 
 
     def __repr__(self):
