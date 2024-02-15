@@ -31,13 +31,15 @@ Install the package with pip,
 
 .. code-block:: bash
 
-  pip install hilbertcurve
+  pip install spacefillers
+  git clone ...
+  pip install -e .
 
 You can calculate points given distances along a hilbert curve,
 
 .. code-block:: python
 
-  >>> from hilbertcurve.hilbertcurve import HilbertCurve
+  >>> from spacefillers.hilbert import HilbertCurve
   >>> p=1; n=2
   >>> hilbert_curve = HilbertCurve(p, n)
   >>> distances = list(range(4))
@@ -82,7 +84,7 @@ The ``HilbertCurve`` class also contains some useful metadata derived from the i
 
 .. code-block:: python
 
-  >>> from hilbertcurve.hilbertcurve import HilbertCurve
+  >>> from spacefillers.hilbert import HilbertCurve
   >>> p=1; n=2
   >>> hilbert_curve = HilbertCurve(p, n)
   >>> num_points = 10_000                                                                                              
@@ -118,7 +120,7 @@ A value of 0 will completely avoid using the multiprocessing module while a valu
 
 .. code-block:: python
 
-  >>> from hilbertcurve.hilbertcurve import HilbertCurve
+  >>> from spacefillers.spacefillers import HilbertCurve
   >>> p=1; n=2
   >>> hilbert_curve = HilbertCurve(p, n, n_procs=-1)
   >>> num_points = 100_000                                                                                              

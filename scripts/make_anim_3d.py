@@ -4,7 +4,7 @@ from matplotlib import cm
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import animation
 import numpy as np
-from hilbertcurve.hilbertcurve import HilbertCurve
+from spacefillers.hilbert import HilbertCurve
 
 N = 3
 p = 3

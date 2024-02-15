@@ -3,7 +3,7 @@
 import pytest
 import unittest
 import numpy as np
-from hilbertcurve.hilbertcurve import HilbertCurve
+from spacefillers.hilbert import HilbertCurve
 
 class TestHilbertIntegerToTranspose(unittest.TestCase):
     """Test hilbert_integer_to_transpose."""

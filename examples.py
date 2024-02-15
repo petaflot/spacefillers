@@ -1,6 +1,6 @@
 import numpy as np
 import time
-from hilbertcurve.hilbertcurve import HilbertCurve
+from spacefillers.hilbert import HilbertCurve
 
 
 do_multiprocessing_test = True

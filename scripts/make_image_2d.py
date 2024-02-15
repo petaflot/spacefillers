@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from hilbertcurve.hilbertcurve import HilbertCurve
+from spacefillers.hilbert import HilbertCurve
 
 plt.figure(figsize=(10,10))
 N = 2 # number of dimensions
